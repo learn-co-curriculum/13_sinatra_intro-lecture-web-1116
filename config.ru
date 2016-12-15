@@ -3,6 +3,5 @@
 # 3. The call method should return an array with three items - the status code, headers, and the body
 require_relative 'config/environment'
 
-
-my_app = Application.new
-run my_app
+use BooksController
+run ApplicationController
